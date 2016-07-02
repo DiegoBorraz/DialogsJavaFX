@@ -70,7 +70,7 @@ public class DialogosJavaFX extends Application {
         //dialogo.setGraphic(new ImageView("10.png"));
 
         // Localizo o arquivo css.
-        dialogo.getDialogPane().getStylesheets().add("DialogoPanel.css");
+        dialogo.getDialogPane().getStylesheets().add("Dialogos.css");
         // Defino a classe que ele pertence.
         dialogo.getDialogPane().getStyleClass().add("dialog-pane");
         // Executa o DialogPane.
@@ -95,7 +95,7 @@ public class DialogosJavaFX extends Application {
          */
         //dialogo.setGraphic(new ImageView("10.png"));
         // Localizo o arquivo css.
-        dialogo.getDialogPane().getStylesheets().add("DialogoPanel.css");
+        dialogo.getDialogPane().getStylesheets().add("Dialogos.css");
         // Defino a classe que ele pertence.
         dialogo.getDialogPane().getStyleClass().add("dialog-pane");
         // Executa o DialogPane.
@@ -120,7 +120,7 @@ public class DialogosJavaFX extends Application {
          */
         //dialogo.setGraphic(new ImageView("10.png"));
         // Localizo o arquivo css.
-        dialogo.getDialogPane().getStylesheets().add("DialogoPanel.css");
+        dialogo.getDialogPane().getStylesheets().add("Dialogos.css");
         // Defino a classe que ele pertence.
         dialogo.getDialogPane().getStyleClass().add("dialog-pane");
         // Executa o DialogPane.
@@ -147,7 +147,7 @@ public class DialogosJavaFX extends Application {
          */
         //dialogo.setGraphic(new ImageView("10.png"));
         // Localizo o arquivo css.
-        dialogo.getDialogPane().getStylesheets().add("DialogoPanel.css");
+        dialogo.getDialogPane().getStylesheets().add("Dialogos.css");
         // Defino a classe que ele pertence.
         dialogo.getDialogPane().getStyleClass().add("dialog-pane");
 
@@ -184,7 +184,7 @@ public class DialogosJavaFX extends Application {
          */
         //dialogo.setGraphic(new ImageView("10.png"));
         // Localizo o arquivo css.
-        dialogo.getDialogPane().getStylesheets().add("DialogoPanel.css");
+        dialogo.getDialogPane().getStylesheets().add("Dialogos.css");
         // Defino a classe que ele pertence.
         dialogo.getDialogPane().getStyleClass().add("dialog-pane");
         dialogo.getButtonTypes().setAll(ButtonType.YES, ButtonType.NO, ButtonType.CANCEL);
@@ -228,7 +228,7 @@ public class DialogosJavaFX extends Application {
          */
         //dialogo.setGraphic(new ImageView("10.png"));
         // Localizo o arquivo css.
-        dialogo.getDialogPane().getStylesheets().add("DialogoPanel.css");
+        dialogo.getDialogPane().getStylesheets().add("Dialogos.css");
         // Defino a classe que ele pertence.
         dialogo.getDialogPane().getStyleClass().add("dialog-pane");
         // Como esta função precisa de 3 botões mais o cancelar.
@@ -277,7 +277,7 @@ public class DialogosJavaFX extends Application {
          */
         //dialogo.setGraphic(new ImageView("10.png"));
         // Localizo o arquivo css.
-        dialogo.getDialogPane().getStylesheets().add("DialogoPanel.css");
+        dialogo.getDialogPane().getStylesheets().add("Dialogos.css");
         // Defino a classe que ele pertence.
         dialogo.getDialogPane().getStyleClass().add("dialog-pane");
         dialogo.getDialogPane().getButtonTypes().addAll(ButtonType.OK, ButtonType.CANCEL);
@@ -349,7 +349,7 @@ public class DialogosJavaFX extends Application {
          */
         //dialogo.setGraphic(new ImageView("10.png"));
         // Localizo o arquivo css.
-        dialogo.getDialogPane().getStylesheets().add("DialogoPanel.css");
+        dialogo.getDialogPane().getStylesheets().add("Dialogos.css");
         // Defino a classe que ele pertence.
         dialogo.getDialogPane().getStyleClass().add("dialog-pane");
         // Aqui ele transfere o erro para uma String
@@ -374,18 +374,16 @@ public class DialogosJavaFX extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        //informacao("A", "B", "C");
-        //erro("A", "B", "C");
-        //atencao("A", "B", "C");
-        //System.out.println(confirmacao("A", "b", "C"));
-        //System.out.println(simNao("A", "B", "C"));
+        //informacao("Titulo", "Descrição", "Complemento");
+        //erro("Titulo", "Descrição", "Complemento");
+        //atencao("Titulo", "Descrição", "Complemento");
+        //System.out.println(confirmacao("Titulo", "Descrição", "Complemento"));
+        //System.out.println(simNao("Titulo", "Descrição", "Complemento"));
         //System.out.println(tresOpcoes("Titulo", "Descrição", "complemento", "BotãoUm", "BotãoDois", "BotãoTres"));
         //System.out.println(validaLogin("Titulo", "Obrigatório", "Digite seu nome malandro", "Digite Seu Nome"));
-
-        /**
-         * Exception ex = new Exception("Deu erro"); ExibeErro("A", "B", "C",
-         * ex);
-         */
+        //Exception ex = new Exception("Deu erro");
+        //ExibeErro("Titulo", "Descrição", "Complemento",ex);
+         
     }
 
 }
